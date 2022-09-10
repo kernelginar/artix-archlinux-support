@@ -19,16 +19,28 @@ echo '
 # Arch Linux repos
 
 
-[core]
-Include = /etc/pacman.d/mirrorlist-arch
+#[testing]
+#Include = /etc/pacman.d/mirrorlist
+
+
+#[core]
+#Include = /etc/pacman.d/mirrorlist-arch
 
 
 [extra]
 Include = /etc/pacman.d/mirrorlist-arch
 
 
+#[community-testing]
+#Include = /etc/pacman.d/mirrorlist
+
+
 [community]
 Include = /etc/pacman.d/mirrorlist-arch
+
+
+#[multilib-testing]
+#Include = /etc/pacman.d/mirrorlist
 
 
 [multilib]
