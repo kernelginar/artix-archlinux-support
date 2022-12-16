@@ -7,7 +7,7 @@ cd ~/artix-archlinux-support
 sudo ./artix-archlinux-support
 ```
 
-# Or
+# Or:
 ```bash
 curl https://raw.githubusercontent.com/abdullah-rgb/artix-archlinux-support/main/artix-archlinux-support.sh | sudo bash
 ```
