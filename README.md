@@ -1,10 +1,13 @@
 # Usage:
 
-```shell
+```bash
 git clone https://github.com/abdullah-rgb/artix-archlinux-support ~/artix-archlinux-support
 cd ~/artix-archlinux-support
 
-chmod +x *.sh
+sudo ./artix-archlinux-support
+```
 
-sudo ./artix-archlinux-support.sh
+# Or
+```bash
+curl https://raw.githubusercontent.com/abdullah-rgb/artix-archlinux-support/main/artix-archlinux-support.sh | sudo bash
 ```
